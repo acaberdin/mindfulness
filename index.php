@@ -13,19 +13,27 @@ if (isset($_SESSION['user_id'])) {
 <head>
     <meta charset="UTF-8">
     <title>Mindfulness Wellness App</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="frontend/index.css">
 </head>
-<body class="bg-light">
-<div class="container text-center py-5">
-    <div class="card mx-auto p-4 shadow" style="max-width: 500px;">
-        <h2 class="mb-3">🧘‍♀️ Welcome to the Mindfulness Wellness App</h2>
-        <p class="text-muted mb-4">
-            Track your daily mindful activities and improve your well-being one task at a time.
-        </p>
-
-        <a href="login.php" class="btn btn-primary w-100 mb-2">Login</a>
-        <a href="register.php" class="btn btn-outline-secondary w-100">Create New Account</a>
+<body>
+    <div class="headbars">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">LEARN MORE</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <a href="login.php" class="logo-link">LOGIN</a>
+        </header>
     </div>
-</div>
+    <div class="main">
+        <div class="container">
+            <img src="pics/Logo.png" alt="logo" class="logo">
+            <h1>MINDFULNESS</h1>
+            <p>your guide towards a better headspace</p>
+        </div>
+    </div>
 </body>
 </html>
